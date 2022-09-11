@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Entity;
@@ -30,7 +30,7 @@ public class Comment {
     public Comment() {
     }
 
-    public Comment(Integer id, Set<Post> posts, String text, java.sql.Time time, Model.User user) {
+    public Comment(Integer id, Set<Post> posts, String text, java.sql.Time time, model.User user) {
         Id = id;
         Posts = posts;
         Text = text;
@@ -70,11 +70,11 @@ public class Comment {
         Time = time;
     }
 
-    public Model.User getUser() {
+    public model.User getUser() {
         return User;
     }
 
-    public void setUser(Model.User user) {
+    public void setUser(model.User user) {
         User = user;
     }
 }

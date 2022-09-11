@@ -1,8 +1,7 @@
-package Model;
+package model;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Entity;
-import jakarta.persistence.criteria.CriteriaBuilder;
 
 import java.util.HashSet;
 import java.util.Set;
