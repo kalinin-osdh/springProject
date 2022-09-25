@@ -12,7 +12,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan(value = "kalinin")
+@ComponentScan({"kalinin"})
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 

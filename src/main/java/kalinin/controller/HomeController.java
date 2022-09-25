@@ -1,5 +1,6 @@
 package kalinin.controller;
 
+import kalinin.service.impl.UserServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
